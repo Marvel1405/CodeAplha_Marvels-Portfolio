@@ -138,7 +138,78 @@ section {
   width: 30px;
   margin-right: 10px;
 }
-@media (max-width: 426px) {
+@media (min-width: 300px) and (max-width: 767px) {
+  .whatsapp-float span {
+    display: none;
+  }
+  .whatsapp-float {
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .whatsapp-float img {
+    margin-right: 0;
+  }
+  nav h2 {
+    font-size: 15px;
+  }
+  nav a {
+    font-size: 12px;
+  }
+  .hero {
+    margin-top: 120px;
+    margin-bottom: 130px;
+    padding: 8.5px;
+  }
+  .hero h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .hero p {
+    font-size: 14px;
+  }
+
+  .hero img {
+    width: 230px;
+    height: 230px;
+  }
+  section {
+    padding: 0px 15px 0px 15px;
+    margin-top: 50px;
+  }
+  section h2 {
+    font-size: 25px;
+  }
+  section p {
+    font-size: 12px;
+    text-align: justify;
+    padding: 0px 15px 0px 15px;
+  }
+  .btn {
+    padding: 12px 20px;
+    width: auto;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    align-content: center;
+  }
+  section ul {
+    font-size: 12px;
+    padding: 0px 15px 0px 15px;
+  }
+  .card a h3 {
+    font-size: 18px;
+  }
+  .card a p {
+    font-size: 15px;
+  }
+  footer {
+    padding: 0px 15px 0px 15px;
+    font-size: 15px;
+    margin-top: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
   .whatsapp-float span {
     display: none;
   }
@@ -153,8 +224,9 @@ section {
     font-size: 20px;
   }
   .hero {
-    margin-top: 110px;
-    margin-bottom: 130px;
+    padding: 0px 80px 0px 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
   .hero h1 {
     font-size: 30px;
@@ -165,12 +237,11 @@ section {
   }
 
   .hero img {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
   }
   section {
-    padding: 0%;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 80px 0px 80px;
     margin-top: 50px;
   }
   section h2 {
@@ -179,7 +250,7 @@ section {
   section p {
     font-size: 15px;
     text-align: justify;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 20px 0px 20px;
   }
   .btn {
     padding: 12px 20px;
@@ -192,7 +263,7 @@ section {
   }
   section ul {
     font-size: 15px;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 20px 0px 20px;
   }
   .card a h3 {
     font-size: 18px;
@@ -201,6 +272,7 @@ section {
     font-size: 15px;
   }
   footer {
+    padding: 0px 80px 0px 80px;
     font-size: 15px;
     margin-top: 50px;
   }
