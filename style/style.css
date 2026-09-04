@@ -138,6 +138,10 @@ section {
   width: 30px;
   margin-right: 10px;
 }
+
+footer{
+  padding: 100px;
+}
 @media (min-width: 300px) and (max-width: 767px) {
   .whatsapp-float span {
     display: none;
